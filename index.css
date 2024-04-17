@@ -6,7 +6,7 @@ html, body {
 }
 
 
-.container, .main-content {
+.container, .main-content, nav {
     max-width: 650px;
     margin: 10px auto;
 }
@@ -16,7 +16,6 @@ nav {
     justify-content: space-between;
     margin: none;
     border-bottom: 2px solid #C6C6C6;
-    margin: 0;
 }
 
 .logo {
@@ -28,7 +27,8 @@ nav {
     width: 100px;
     height: auto;
     margin: 5px;
-    transform: scale(0.5)
+    transform: scale(0.5);
+    cursor: pointer; 
 }
 
 .artist-info {
