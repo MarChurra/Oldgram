@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+   font-family: "Roboto", sans-serif;
+   font-size: 18px;
+}
+
+
+.container, .main-content {
+    max-width: 650px;
+    margin: 10px auto;
+}
+    
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: none;
+    border-bottom: 2px solid #C6C6C6;
+    margin: 0;
+}
+
+.logo {
+    width: 175px;
+    margin: 10px 15px;
+}
+
+.user-avatar{
+    width: 100px;
+    height: auto;
+    margin: 5px;
+    transform: scale(0.5)
+}
+
+.artist-info {
+    display: flex;
+}
+
+.artist-avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+    transform: scale(0.7);
+}
+
+.artist-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 7px;;
+}
+
+.artist-name {
+    margin-bottom: 0px;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.artist-adress {
+    margin-top: 2px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.artist-post {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.interact-btn {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+     fill: white;
+     user-select: none;
+}
+
+.interact-btn:hover,
+.interact-btn:active {
+    opacity: 0.6;
+    transform: scale(1.1)
+}
+
+.red-fill {
+    fill: #FF0058 !important;
+    stroke: transparent;
+}
+
+.likes {
+    display: block;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.interact-btn,
+.likes, 
+.user-name,
+.user-comment {
+    margin-left: 15px;
+}
+
+
+.user-name, .user-comment {
+    margin-top: 25px;
+}
+
+.user-name {
+    font-size: 22px;
+    display: inline-block;
+}
+
+.user-comment {
+    font-size: 20px;
+    margin-left: 5px;
+}
