@@ -1,16 +1,19 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
-   font-family: "Roboto", sans-serif;
-   font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
 }
 
 
-.container, .main-content, nav {
+.container,
+.main-content,
+nav {
     max-width: 650px;
     margin: 10px auto;
 }
-    
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -23,12 +26,12 @@ nav {
     margin: 10px 15px;
 }
 
-.user-avatar{
+.user-avatar {
     width: 100px;
     height: auto;
     margin: 5px;
     transform: scale(0.5);
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .artist-info {
@@ -46,7 +49,8 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 7px;;
+    margin-left: 7px;
+    ;
 }
 
 .artist-name {
@@ -73,8 +77,8 @@ nav {
     display: inline-block;
     cursor: pointer;
     margin-right: 20px;
-     fill: white;
-     user-select: none;
+    fill: white;
+    user-select: none;
 }
 
 .interact-btn:hover,
@@ -96,14 +100,15 @@ nav {
 }
 
 .interact-btn,
-.likes, 
+.likes,
 .user-name,
 .user-comment {
     margin-left: 15px;
 }
 
 
-.user-name, .user-comment {
+.user-name,
+.user-comment {
     margin-top: 25px;
 }
 
@@ -115,4 +120,51 @@ nav {
 .user-comment {
     font-size: 20px;
     margin-left: 5px;
+}
+
+@media (max-width: 750px) {
+    .artist-post{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 150px;
+        height: auto;
+    }
+
+    .user-avatar {
+        width: 80px;
+        height: auto;
+        display: block;
+    }
+
+    .artist-avatar {
+        width: 90px;
+    }
+
+    .artist-details h2, .artist-details h3 {
+        font-size: 1rem;
+    }
+
+    .interact-btn {
+        width: 30px;
+        margin-right: -0.2em;
+    }
+
+    .likes {
+        font-size: 1rem;
+    }
+
+    .user-comment {
+        font-size: 0.8rem;
+    }
+
+    .user-name {
+        font-size: 1rem;
+        display: block;
+        text-align: left;
+        margin-left: 1em;
+    }
 }
