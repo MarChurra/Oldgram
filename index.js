@@ -2,7 +2,7 @@ const likeBtn = document.getElementById("likeBtn")
 const likes = document.getElementById("likes")
 let isLiked = false
 
-likeBtn.addEventListener('dblclick', function () {
+likeBtn.addEventListener('click', function () {
     likeBtn.classList.toggle('red-fill');
 
     let totalLikes = parseInt(likes.innerHTML);
